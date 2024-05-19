@@ -1,0 +1,24 @@
+{
+  "name": "telegram-bot-node",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src/**/*.js",
+    "start": "node ./src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "Artem Havryliak <atremat@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.3.0",
+    "eslint": "^9.3.0",
+    "globals": "^15.3.0",
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.65.1"
+  }
+}
